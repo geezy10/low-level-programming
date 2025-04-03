@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/elias/Dokumente/FH/Semester_4/HNP/exercise/UE01_HuberThomas/build",
+  "command": "/usr/bin/g++ -g -std=gnu++20 -fmodules-ts -fmodule-mapper=CMakeFiles/UE01_HuberThomas.dir/main.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/UE01_HuberThomas.dir/main.cpp.o -c /home/elias/Dokumente/FH/Semester_4/HNP/exercise/UE01_HuberThomas/main.cpp",
+  "file": "/home/elias/Dokumente/FH/Semester_4/HNP/exercise/UE01_HuberThomas/main.cpp",
+  "output": "CMakeFiles/UE01_HuberThomas.dir/main.cpp.o"
+}
+]
