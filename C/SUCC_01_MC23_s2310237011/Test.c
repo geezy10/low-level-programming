@@ -9,19 +9,16 @@ int main(void) {
         IntList list;
         init(&list);
 
-        printf("Teste push_front:\n");
         push_front(&list, 10);
         push_front(&list, 20);
         push_front(&list, 30);
         print_list(&list);
 
 
-        printf("\nTeste push_back:\n");
         push_back(&list, 40);
         push_back(&list, 50);
         print_list(&list);
 
-        printf("\nTeste front und back:\n");
         printf("Front: %d\n", front(&list));
         printf("Back: %d\n", back(&list));
 
@@ -46,7 +43,6 @@ int main(void) {
         sort(&list);
         print_list(&list);
 
-        printf("\nTeste clear:\n");
         clear(&list);
         print_list(&list);
         printf("Size nach clear: %d\n", size(&list));

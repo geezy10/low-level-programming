@@ -9,4 +9,4 @@ void queue_init();
 int queue_put(int v);
 int queue_get(int* v);
 int queue_empty();
-#endif //QUEUE_H
+#endif

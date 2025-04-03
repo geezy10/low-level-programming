@@ -1,3 +1,0 @@
-/home/elias/Dokumente/FH/Semester_4/HNP/exercise/UE01_HuberThomas/cmake-build-debug/CMakeFiles/UE01_HuberThomas.dir
-/home/elias/Dokumente/FH/Semester_4/HNP/exercise/UE01_HuberThomas/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/elias/Dokumente/FH/Semester_4/HNP/exercise/UE01_HuberThomas/cmake-build-debug/CMakeFiles/rebuild_cache.dir

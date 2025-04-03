@@ -89,12 +89,22 @@ int main(void) {
     printf("Popped front. Size: %d\n", size(list));
     assert(size(list) == 0);
 
+    // Create another person
+    Person* p3 = malloc(sizeof(Person));
+    p2->id = 102;
+    p2->age = 25;
+    p2->name = "max";
+    p2->print = printPerson;
+
+
+    push_back(list, p3);
+
 
     // Clean up
     free(p1);
     free(p2);
     free(list);
 
-    printf("All tests passed!\n");
+
     return 0;
 }
