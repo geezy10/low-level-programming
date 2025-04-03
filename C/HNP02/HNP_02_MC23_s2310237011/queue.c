@@ -20,7 +20,7 @@ void queue_init() {
 
 
 int queue_put(int v) {
-  if(head >= 0 && size <= QUEUE_MAX_SIZE){
+  if(size < QUEUE_MAX_SIZE){
     queue[tail] = v;
   tail = (tail + 1) % QUEUE_MAX_SIZE;
   size++;
@@ -33,7 +33,7 @@ int queue_put(int v) {
 
 
 int queue_get(int* v) {
-  if (head >= 0 && tail < QUEUE_MAX_SIZE) {
+  if (size > 0) {
     *v = queue[head];
     head = (head + 1) % QUEUE_MAX_SIZE;
     size--;
